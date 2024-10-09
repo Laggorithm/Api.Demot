@@ -1,0 +1,32 @@
+﻿@Api.Harjoitus1_HostAddress = https://localhost:7026
+
+POST {{Api.Harjoitus1_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name":"walk dog",
+    "isComplete":true
+}
+
+###
+
+
+ 
+
+GET {{Api.Harjoitus1_HostAddress}}/todoitems/1
+###
+
+PUT {{Api.Harjoitus1_HostAddress}}/todoitems/1
+Content-Type: application/json
+{
+   
+   "name": "feed fish",
+   "isComplete": false
+}
+
+###
+
+DELETE {{Api.Harjoitus1_HostAddress}}/todoitems/1   
+
+###
