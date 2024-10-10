@@ -1,0 +1,13 @@
+﻿@ApiHarjoitus2_HostAddress = https://localhost:7250
+
+GET {{ApiHarjoitus2_HostAddress}}/quests
+
+###
+
+GET {{ApiHarjoitus2_HostAddress}}/quests/1
+
+###
+
+GET {{ApiHarjoitus2_HostAddress}}/quests/2
+
+###
