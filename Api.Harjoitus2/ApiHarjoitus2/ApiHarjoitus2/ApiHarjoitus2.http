@@ -11,3 +11,9 @@ GET {{ApiHarjoitus2_HostAddress}}/quests/1
 GET {{ApiHarjoitus2_HostAddress}}/quests/2
 
 ###
+
+GET https://localhost:7250/quests/2
+
+###
+
+ 

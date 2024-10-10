@@ -32,6 +32,6 @@ app.MapPost("/quests", (Quest quest) =>
     quests.Add(quest);
     return Results.Created($"/quests/{quest.Id}", quest);
 });
-
-// Start the application
+ 
+ 
 app.Run();
